@@ -1,0 +1,20 @@
+img {
+    width: 400px;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+h1 { text-align: center}
+
+Nav > ul > li {display: inline; padding-right: 2em; padding-left: 0;}
+
+nav > ul { text-align: center;}
+
+#about {text-align: center;}
+
+Footer {text-align: center; bottom: 0px; position: absolute; left: 43%;}
+
+#activities { position: absolute; left: 41%; margin-top: 0}
