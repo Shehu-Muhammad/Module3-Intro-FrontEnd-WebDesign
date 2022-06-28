@@ -1,3 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    font-size: 1.5em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 img {
     width: 400px;
 }
@@ -5,16 +31,78 @@ img {
 iframe {
     width: 560px;
     height: 315px;
+    margin-left: 21%;
+    border: 10px groove black;
 }
 
-h1 { text-align: center}
+h1, h2 { 
+    text-align: center
+}
 
-Nav > ul > li {display: inline; padding-right: 2em; padding-left: 0;}
+Nav > ul > li {
+    display: inline; 
+    padding-right: 2em; 
+    padding-left: 0;
+}
 
-nav > ul { text-align: center;}
+nav {
+    width: 100%;
+    background: grey;
+    margin-bottom: 30px;
+}
 
-#about {text-align: center;}
+nav > ul { 
+    text-align: center;
+}
 
-Footer {text-align: center; bottom: 0px; position: absolute; left: 43%;}
+#about {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-#activities { position: absolute; left: 41%; margin-top: 0}
+Footer {
+    text-align: center; 
+    bottom: 0px; 
+    position: absolute; 
+    left: 43%;
+}
+
+#activities-list { 
+    position: absolute; 
+    left: 41%; 
+    margin-top: 0;
+}
+
+#workout {
+    position: absolute;
+    left: 41%;
+    margin-top: 40px;
+}
+
+#activities-list > li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input, label {
+    display: block;
+    margin-left: 30%;
+    width: 300px;
+    text-align: left;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type=submit]{
+    text-align: center;
+    color: black;
+    background: green;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
