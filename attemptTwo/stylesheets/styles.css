@@ -100,15 +100,20 @@ div > p {
 }
 
 div.customer {
-    width: 300px;
+    width: 350px;
     border: 10px solid rgba(0, 0, 255, 0.212);
-    border-radius: 90px;
+    border-radius: 60px;
     padding: 30px;
     margin: 0 auto;
     margin-bottom: 30px;
     background-color: lightgrey;
     color: black;
     box-shadow: 5px 5px rgb(4, 128, 0);
+    padding-bottom: 35px;
+}
+
+div.customer > q {
+    font-size: 20px;
 }
 
 h1#reviews {
@@ -118,10 +123,39 @@ h1#reviews {
     color: black;
 }
 
-#reviewsBackground {
-    background-color: lightblue;
+#reviewsBackground,html {
+    background-color: black;
 }
 
-/* div#stars {
-    background-image: url("images/gold_star.jpg");
-} */
+div#stars{
+    background-image: url("../images/goldstars.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.customer > img {
+    width: 80px;
+    float: left;
+}
+
+div.customer > img {
+    width: 80px;
+    float: left;
+    margin-right: 30px;
+    border: 5px groove khaki;
+    border-radius: 60px;
+    box-shadow: 5px 5px green;
+}
+
+/* #delay {
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+  }
+  
+  #delay:hover {
+    font-size: 72px;
+  } */
+  
+  
