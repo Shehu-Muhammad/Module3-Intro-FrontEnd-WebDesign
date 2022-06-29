@@ -94,7 +94,34 @@ div > p {
     margin-bottom: 30px;
 }
 
-body {
+.aboutBackground, html {
     background-color: black;
     color: khaki;
 }
+
+div.customer {
+    width: 300px;
+    border: 10px solid rgba(0, 0, 255, 0.212);
+    border-radius: 90px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 5px 5px rgb(4, 128, 0);
+}
+
+h1#reviews {
+    text-align: center;
+    font-size: 64px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#reviewsBackground {
+    background-color: lightblue;
+}
+
+/* div#stars {
+    background-image: url("images/gold_star.jpg");
+} */
