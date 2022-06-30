@@ -173,7 +173,7 @@ div.customer > img {
   }
   .grid-item-col-3 {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
   }
   
   .grid-item, .grid-item-col-3{
@@ -183,15 +183,15 @@ div.customer > img {
   .grid-item > li > a, .grid-item-col-3 >li > a {
     text-decoration: none; 
   }
-  
-  button {
-    padding: 30px;
-    font-size: 30px;
-    cursor: pointer;
+
+  div.grid-item, div.grid-item-col-3 {
+      padding: 30px;
+      font-size: 30px;
+      cursor: pointer;
   }
-  
-  button:hover {
-    background-color: khaki;
+
+  div.grid-item:hover, div.grid-item-col-3:hover {
+      background-color: khaki;
   }
   
   div.grid-item > li > a > button.pressed, div.grid-item-col-3 > li > a > button.pressed {
