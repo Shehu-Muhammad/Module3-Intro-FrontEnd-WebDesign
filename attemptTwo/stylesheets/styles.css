@@ -158,4 +158,71 @@ div.customer > img {
     font-size: 72px;
   } */
   
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: green;
+    padding: 10px;
+  }
+  .grid-item, .grid-item-col-3 {
+    background-color: black;
+    border: 10px solid green;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item-col-3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .grid-item, .grid-item-col-3{
+    list-style-type: none;
+  }
+  
+  .grid-item > li > a, .grid-item-col-3 >li > a {
+    text-decoration: none; 
+  }
+  
+  button {
+    padding: 30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: khaki;
+  }
+  
+  div.grid-item > li > a > button.pressed, div.grid-item-col-3 > li > a > button.pressed {
+    background-color: khaki;
+    cursor: not-allowed;
+  }
+  
+  #workoutLinks {
+    float: right;
+    margin-right: 60px;
+  }
+  
+  img.abs {
+    /* float: left; */
+    width: 300px;
+    padding-right: 30px;
+    padding-top: 15px;
+  }
+  
+  li.abs {
+    margin-left: 50px;
+    /* float:right; */
+    margin-top: 30px;
+    font-size: 30px;
+    list-style-type: none;
+  }
+  
+ h1.abs {
+    text-align: center;
+    font-size: 64px;
+ } 
+  
+  
   
