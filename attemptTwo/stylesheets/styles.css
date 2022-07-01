@@ -27,6 +27,7 @@ a {
 .navLinks > a:link,  .navLinks > a:visited{
     text-decoration: none;
     font-size: 1.5em;
+    padding: 10px;
 }
 
 .navLinks > a:hover {
@@ -39,6 +40,7 @@ a {
 
 .active > a {
     color: #3E885B;
+    border: 3px solid #C3B299;
 }
 
 .container {
@@ -276,6 +278,72 @@ h1.index {
     color: white;
     opacity: 0.9;
 }
-  
+
+div.container-form-signup {
+    margin: 0 auto;
+    background-image: url("../images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 45em;
+    border: 10px groove khaki;
+    padding: 100px 500px 100px 100px;
+    margin-bottom: 150px;
+}
+
+div.container-form-login {
+    margin: 0 auto;
+    background-image: url("../images/bruce-mars-gJtDg6WfMlQ-unsplash.jpg");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 45em;
+    border: 10px groove khaki;
+    padding: 200px 500px 154px 100px;
+    margin-bottom: 150px;
+}
+
+div > form > label > input[type=text], div > form > label > input[type=email], div > form > label > input[type=password] {
+    width: 13em;
+    padding: 7px;
+    border: 5px solid green;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+div > form > label {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+div > form > input[type="submit"] {
+    width: 7.9em;
+    padding: 10px;
+    background-color: green;
+    color: khaki;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+input, label {
+    display: block;
+}
+
+h1.signup {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+li.signup {
+    float: right;
+    margin-right: 90px;
+}
+
+li.login {
+    float:right;
+    padding-right: 0;
+}
  
   
