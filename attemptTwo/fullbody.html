@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 <body>
+    <h2 hidden>Gym Website Full Body Workouts</h2>
     <nav>
+        <h2 hidden>Navigation Section</h2>
         <ul>
             <li class="navLinks">
                 <a href="index.html"><Strong>Brand</Strong></a>
@@ -16,9 +18,20 @@
             <li class="navLinks">
                 <a href="about.html">About</a>
             </li>
-            <li class="navLinks">
-                <a href="workouts.html">Workouts</a>
-            </li>
+            <div class="dropdown">
+                <li class="navLinks active">
+                    <a href="workouts.html">Workouts</a>
+                    <div class="dropdown-content">
+                        <a href="abs.html">Abs</a>
+                        <a href="arms.html">Arms</a>
+                        <a href="legs.html">Legs</a>
+                        <a href="back.html">Back</a>
+                        <a href="shoulders.html">Shoulders</a>
+                        <a href="chest.html">Chest</a>
+                        <a class="pressed" href="fullbody.html">Full Body</a>
+                    </div>
+                </li>
+            </div>
             <li class="navLinks">
                 <a href="store.html">Store</a>
             </li>
@@ -28,33 +41,50 @@
         </ul>
     </nav>
     <section id="workoutLinks">
-        <ul>
-            <div class="grid-container">
+        <h2 hidden>Workouts Links</h2>
+        <div class="grid-container">
+            <a href="abs.html"> 
                 <div class="grid-item">
-                    <li><a href="abs.html"><button>Abs</button></a></li>
+                    Abs
                 </div>
+            </a>
+            <a href="arms.html">
                 <div class="grid-item">
-                    <li><a href="arms.html"><button>Arms</button></a></li>
+                    Arms
                 </div>
+            </a>
+            <a href="legs.html">
                 <div class="grid-item">
-                    <li><a href="legs.html"><button>Legs</button></a></li>
+                    Legs
                 </div>
+            </a>
+            <a href="back.html">
                 <div class="grid-item">
-                    <li><a href="back.html"><button>Back</button></a></li>
+                    Back
                 </div>
+            </a>
+            <a href="shoulders.html">
                 <div class="grid-item">
-                    <li><a href="shoulders.html"><button>Shoulders</button></a></li>
+                    Shoulders
                 </div>
+            </a>
+            <a href="chest.html">
                 <div class="grid-item">
-                    <li><a href="chest.html"><button>Chest</button></a></li>
+                    Chest
                 </div>
-                <div class="grid-item-col-3">
-                    <li><a href="fullbody.html"><button disabled class="pressed">Full Body</button></a></li>
+            </a>
+            <a href="fullbody.html">
+                <div class="grid-item pressed">
+                    Full Body
                 </div>
-            </div>
-        </ul>
+            </a>
+            <a href="workouts.html">
+                <div class="grid-item">
+                    Workouts
+                </div>
+            </a>
+        </div>
     </section>
-    
     <section>
         <h1 class="abs">Full Body Workouts</h1>
         <!-- <ol>
@@ -126,7 +156,7 @@
             </div>
         </ol> -->
     </section> 
-    <footer>
+    <footer id="footer">
         <p>&copy; Shehu Muhammad</p>
     </footer>
 </body>

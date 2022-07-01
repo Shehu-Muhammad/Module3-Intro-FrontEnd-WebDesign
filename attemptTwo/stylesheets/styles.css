@@ -4,20 +4,24 @@
 }
 
 nav {
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: black;
-    padding: 2em;
+    /* padding: 2em; */
+    padding-left: 30px;
+    width: 100%;
 }
 
 .navLinks {
     display: inline;
     list-style-type: none;
     padding: 30px;
+    float: left;
 }
 
 a {
     color: white;
+    text-decoration: none; 
 }
 
 .navLinks > a:link,  .navLinks > a:visited{
@@ -72,6 +76,7 @@ h1.aboutUs {
     text-align: center;
     font-size: 64px;
     padding-bottom: 10px;
+    margin-top: 100px;
 }
 
 img.aboutImages {
@@ -120,7 +125,7 @@ h1#reviews {
     text-align: center;
     font-size: 64px;
     padding-bottom: 10px;
-    color: black;
+    margin-top: 100px;
 }
 
 #reviewsBackground,html {
@@ -158,50 +163,42 @@ div.customer > img {
     font-size: 72px;
   } */
   
-  .grid-container {
-    display: inline-grid;
+.grid-container {
+    display: inline-flexbox;
     grid-template-columns: auto auto auto;
     background-color: green;
     padding: 10px;
   }
-  .grid-item, .grid-item-col-3 {
+  
+.grid-item {
     background-color: black;
     border: 10px solid green;
     padding: 30px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
-  .grid-item-col-3 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-  }
   
-  .grid-item, .grid-item-col-3{
-    list-style-type: none;
-  }
-  
-  .grid-item > li > a, .grid-item-col-3 >li > a {
-    text-decoration: none; 
-  }
 
-  div.grid-item, div.grid-item-col-3 {
+div.grid-item {
       padding: 30px;
       font-size: 30px;
       cursor: pointer;
   }
 
-  div.grid-item:hover, div.grid-item-col-3:hover {
+div.grid-item:hover {
       background-color: khaki;
   }
   
-  div.grid-item > li > a > button.pressed, div.grid-item-col-3 > li > a > button.pressed {
-    background-color: khaki;
+div.grid-item.pressed, div.dropdown-content > a.pressed {
+    background-color: red;
     cursor: not-allowed;
   }
   
   #workoutLinks {
     float: right;
-    margin-right: 60px;
+    margin-right: 160px;
+    clear: both;
+    margin-top: 100px;
   }
   
   img.abs {
@@ -222,7 +219,63 @@ div.customer > img {
  h1.abs {
     text-align: center;
     font-size: 64px;
+    margin-top: 100px;
  } 
   
+
+#footer {
+    position: absolute;
+    bottom: -300px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
   
+.dropdown .dropbtn {
+    font-size: 1.5em;  
+    border: none;
+    outline: none;
+    color: khaki;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    /* margin: 0; */
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 10px 12px 10px 10px;
+    padding-bottom: 10px;;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+.dropdown-content a:hover {
+    background-color: khaki
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+h1.index {
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+  
+ 
   
