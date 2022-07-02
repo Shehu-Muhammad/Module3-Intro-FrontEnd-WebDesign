@@ -208,8 +208,9 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
   img.abs {
     /* float: left; */
     width: 300px;
-    padding-right: 30px;
-    padding-top: 15px;
+    border: 5px groove khaki;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   li.abs {
@@ -218,6 +219,19 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     margin-top: 30px;
     font-size: 30px;
     list-style-type: none;
+  }
+  
+  ol > div > li > ol {
+    padding: 0px 0px 10px 20px;
+    margin-left: 10px;
+  }
+  
+  ol > div > li > ol > li {
+    padding-bottom: 20px;
+  }
+  
+  ol > div > li > p {
+    padding-bottom: 10px;
   }
   
  h1.abs {
