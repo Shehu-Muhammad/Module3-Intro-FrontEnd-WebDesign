@@ -266,9 +266,11 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     display: none;
     position: absolute;
     background-color: green;
-    min-width: 160px;
+    min-width: 117px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    top: 69px;
+    border: 1px solid khaki;
   }
   
 .dropdown-content a {
@@ -279,10 +281,11 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     text-decoration: none;
     display: block;
     text-align: center;
+    border: 1px solid khaki;
   }
   
 .dropdown-content a:hover {
-    background-color: khaki
+    background-color: khaki;
   }
   
 .dropdown:hover .dropdown-content {
