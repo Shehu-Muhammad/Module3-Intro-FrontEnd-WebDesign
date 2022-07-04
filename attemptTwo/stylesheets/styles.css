@@ -110,14 +110,14 @@ div > p {
 
 div.customer {
     width: 350px;
-    border: 10px solid rgba(0, 0, 255, 0.212);
+    border: 5px solid khaki;
     border-radius: 60px;
     padding: 30px;
     margin: 0 auto;
     margin-bottom: 30px;
-    background-color: lightgrey;
-    color: black;
-    box-shadow: 5px 5px rgb(4, 128, 0);
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px khaki;
     padding-bottom: 35px;
 }
 
@@ -132,12 +132,12 @@ h1#reviews {
     margin-top: 100px;
 }
 
-#reviewsBackground,html {
-    background-color: black;
+#reviewsBackground, .reviewsBg {
+    background-color: #3E885B;
 }
 
 div#stars{
-    background-image: url("../images/goldstars.webp");
+    /* background-image: url("../images/goldstars.webp"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
