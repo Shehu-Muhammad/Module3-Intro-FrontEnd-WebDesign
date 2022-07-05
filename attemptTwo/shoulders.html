@@ -13,6 +13,7 @@
     <header>
         <nav>
             <h2 hidden>Navigation Section</h2>
+            <!-- This controls the navigation links -->
             <ul>
                 <li class="navLinks">
                     <a href="index.html"><Strong>Brand</Strong></a>
@@ -20,10 +21,13 @@
                 <li class="navLinks">
                     <a href="about.html">About</a>
                 </li>
-                <div class="dropdown">
+            </ul>
+            <!-- These links will show if you hover over the workouts link -->
+            <div class="dropdown">
+                <ul>
                     <li class="navLinks active">
                         <a href="workouts.html">Workouts</a>
-                        <div class="dropdown-content">
+                        <p class="dropdown-content">
                             <a href="abs.html">Abs</a>
                             <a href="arms.html">Arms</a>
                             <a href="legs.html">Legs</a>
@@ -31,9 +35,11 @@
                             <a class="pressed" href="shoulders.html">Shoulders</a>
                             <a href="chest.html">Chest</a>
                             <a href="fullbody.html">Full Body</a>
-                        </div>
+                        </p>
                     </li>
-                </div>
+                </ul>
+            </div>
+            <ul>
                 <li class="navLinks">
                     <a href="store.html">Store</a>
                 </li>
@@ -48,6 +54,7 @@
                 </li>
             </ul>
         </nav>
+        <!-- This controls the links on the right side of the page -->
         <section id="workoutLinks">
             <h2 hidden>Workouts Links</h2>
             <div class="grid-container">
@@ -94,80 +101,79 @@
             </div>
         </section>
     </header>
+    <!-- Each of these sections contains an image, a list and a paragraph -->
     <section>
         <h1 class="abs">Shoulder Workouts</h1>
-        <ol>
-            <div>
+        <section>
+            <ol>
                 <li class="abs"><h2>Standing Dumbbell Fly</h2>
                     <img class="abs" src="images/standing-dumbbell-flye.webp" alt="A guy without a shirt on about to perform a standing dumbbell fly">
-                    <p>
-                        <ol>
-                            <li>Hold a dumbbell in each hand by your sides.</li>
-                            <li>Without shrugging, use your upper body to swing the <br>
-                                 weights up a few inches.</li>
-                            <li>Your arms and torso will form an upside down V shape.</li>
-                            <li>Think of it as a lateral raise with momentum but without <br>
-                                 full range of motion.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Hold a dumbbell in each hand by your sides.</li>
+                        <li class="pbl">Without shrugging, use your upper body to swing the <br>
+                                weights up a few inches.</li>
+                        <li class="pbl">Your arms and torso will form an upside down V shape.</li>
+                        <li class="pbl">Think of it as a lateral raise with momentum but without <br>
+                                full range of motion.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Face Pull</h2>
                     <img class="abs" src="images/facepull.webp" alt="A guy without a shirt on about to perform a face pull">
-                    <p>
-                        <ol>
-                            <li>Attach a rope handle to the top pulley of a cable station.</li>
-                            <li>Grasp an end in each hand with palms facing each other. <br>
-                                 Step back to place tension on the cable.</li>
-                            <li>Pull the handles to your forehead so your palms face your <br>
-                                ears and your upper back is fully contracted.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Attach a rope handle to the top pulley of a cable station.</li>
+                        <li class="pbl">Grasp an end in each hand with palms facing each other. <br>
+                            Step back to place tension on the cable.</li>
+                        <li class="pbl">Pull the handles to your forehead so your palms face your <br>
+                            ears and your upper back is fully contracted.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Seated Dumbbell Clean</h2>
                     <img class="abs" src="images/seated-dumbbell.webp" alt="A guy without a shirt on about to perform a seated dumbbell clean">
-                    <p>
-                        <ol>
-                            <li>Hold a dumbbell in each hand and sit on the edge of a bench.</li>
-                            <li>Keeping your lower back flat, lean forward.</li>
-                            <li>Explosively straighten your body and shrug the weights so your <br> 
-                                arms rise.</li>
-                            <li>Allow the momentum to flip your wrists so you catch the weights <br> 
-                                at shoulder level.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Hold a dumbbell in each hand and sit on the edge of a bench.</li>
+                        <li class="pbl">Keeping your lower back flat, lean forward.</li>
+                        <li class="pbl">Explosively straighten your body and shrug the weights so your <br> 
+                            arms rise.</li>
+                        <li class="pbl">Allow the momentum to flip your wrists so you catch the weights <br> 
+                            at shoulder level.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Dip</h2>
                     <img class="abs" src="images/dip.webp" alt="A guy without a shirt on about to perform a dip">
-                    <p>
-                        <ol>
-                            <li>Rest the palms of your hands on a bench or chair, and, if available, <br>
-                                place your heels on another elevated object in front of your so your <br>
-                                 legs are suspended.</li>
-                            <li>Lower your body until your upper arms are parallel to the floor.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Rest the palms of your hands on a bench or chair, and, if available, <br>
+                            place your heels on another elevated object in front of your so your <br>
+                                legs are suspended.</li>
+                        <li class="pbl">Lower your body until your upper arms are parallel to the floor.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Dumbbell Neutral Grip Overhead Press</h2>
                     <img class="abs" src="images/neutral-grip-overhead-press.webp" alt="A guy without a shirt on about to perform a dumbbell neutral grip overhead press">
-                    <p>
-                        <ol>
-                            <li>Hold a dumbbell in each hand at shoulder level with palms facing <br>
-                                 each other and elbows pointing forward.</li>
-                            <li>Brace your core and press the weights straight overhead.</li>
-                            <li>At the top, shrug your shoulders and hold for a second.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Hold a dumbbell in each hand at shoulder level with palms facing <br>
+                            each other and elbows pointing forward.</li>
+                        <li class="pbl">Brace your core and press the weights straight overhead.</li>
+                        <li class="pbl">At the top, shrug your shoulders and hold for a second.</li>
+                    </ol>
                 </li>
-            </div>
-        </ol>
+            </ol>
+        </section>
     </section>
     <footer>
         <p>&copy; Shehu Muhammad</p>
