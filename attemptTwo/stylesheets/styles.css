@@ -221,7 +221,7 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     list-style-type: none;
   }
   
-  ol > div > li > ol {
+  /* ol > div > li > ol {
     padding: 0px 0px 10px 20px;
     margin-left: 10px;
   }
@@ -232,7 +232,7 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
   
   ol > div > li > p {
     padding-bottom: 10px;
-  }
+  } */
 
 .ml {
     padding: 0px 0px 10px 20px;
