@@ -10,165 +10,173 @@
 </head>
 <body>
     <h2 hidden>Gym Website Back Workouts</h2>
-    <nav>
-        <h2 hidden>Navigation Section</h2>
-        <ul>
-            <li class="navLinks">
-                <a href="index.html"><Strong>Brand</Strong></a>
-            </li>
-            
-            <li class="navLinks">
-                <a href="about.html">About</a>
-            </li>
-            <div class="dropdown">
-                <li class="navLinks active">
-                    <a href="workouts.html">Workouts</a>
-                    <div class="dropdown-content">
-                        <a href="abs.html">Abs</a>
-                        <a href="arms.html">Arms</a>
-                        <a href="legs.html">Legs</a>
-                        <a class="pressed" href="back.html">Back</a>
-                        <a href="shoulders.html">Shoulders</a>
-                        <a href="chest.html">Chest</a>
-                        <a href="fullbody.html">Full Body</a>
-                    </div>
+    <header>
+        <nav>
+            <h2 hidden>Navigation Section</h2>
+            <!-- This controls the navigation links -->
+            <ul>
+                <li class="navLinks">
+                    <a href="index.html"><Strong>Brand</Strong></a>
                 </li>
+                
+                <li class="navLinks">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+            <!-- These links will show if you hover over the workouts link -->
+            <div class="dropdown">
+                <ul>
+                    <li class="navLinks active">
+                        <a href="workouts.html">Workouts</a>
+                        <p class="dropdown-content">
+                            <a href="abs.html">Abs</a>
+                            <a href="arms.html">Arms</a>
+                            <a href="legs.html">Legs</a>
+                            <a class="pressed" href="back.html">Back</a>
+                            <a href="shoulders.html">Shoulders</a>
+                            <a href="chest.html">Chest</a>
+                            <a href="fullbody.html">Full Body</a>
+                        </p>
+                    </li>
+                </ul>
             </div>
-            <li class="navLinks">
-                <a href="store.html">Store</a>
-            </li>
-            <li class="navLinks">
-                <a href="reviews.html">Reviews</a>
-            </li>
-            <li class="navLinks signup">
-                <a href="signup.html">Sign Up</a>
-            </li>
-            <li class="navLinks login">
-                <a href="login.html">Log In</a>
-            </li>
-        </ul>
-    </nav>
-    <section id="workoutLinks">
-        <h2 hidden>Workouts Links</h2>
-        <div class="grid-container">
-            <a href="abs.html"> 
-                <div class="grid-item">
-                    Abs
-                </div>
-            </a>
-            <a href="arms.html">
-                <div class="grid-item">
-                    Arms
-                </div>
-            </a>
-            <a href="legs.html">
-                <div class="grid-item">
-                    Legs
-                </div>
-            </a>
-            <a href="back.html">
-                <div class="grid-item pressed">
-                    Back
-                </div>
-            </a>
-            <a href="shoulders.html">
-                <div class="grid-item">
-                    Shoulders
-                </div>
-            </a>
-            <a href="chest.html">
-                <div class="grid-item">
-                    Chest
-                </div>
-            </a>
-            <a href="fullbody.html">
-                <div class="grid-item currentPage">
-                    Full Body
-                </div>
-            </a>
-            <a href="workouts.html">
-                <div class="grid-item">
-                    Workouts
-                </div>
-            </a>
-        </div>
-    </section>
+            <ul>
+                <li class="navLinks">
+                    <a href="store.html">Store</a>
+                </li>
+                <li class="navLinks">
+                    <a href="reviews.html">Reviews</a>
+                </li>
+                <li class="navLinks signup">
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li class="navLinks login">
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- This controls the links on the right side of the page -->
+        <section id="workoutLinks">
+            <h2 hidden>Workouts Links</h2>
+            <div class="grid-container">
+                <a href="abs.html"> 
+                    <div class="grid-item">
+                        Abs
+                    </div>
+                </a>
+                <a href="arms.html">
+                    <div class="grid-item">
+                        Arms
+                    </div>
+                </a>
+                <a href="legs.html">
+                    <div class="grid-item">
+                        Legs
+                    </div>
+                </a>
+                <a href="back.html">
+                    <div class="grid-item pressed">
+                        Back
+                    </div>
+                </a>
+                <a href="shoulders.html">
+                    <div class="grid-item">
+                        Shoulders
+                    </div>
+                </a>
+                <a href="chest.html">
+                    <div class="grid-item">
+                        Chest
+                    </div>
+                </a>
+                <a href="fullbody.html">
+                    <div class="grid-item currentPage">
+                        Full Body
+                    </div>
+                </a>
+                <a href="workouts.html">
+                    <div class="grid-item">
+                        Workouts
+                    </div>
+                </a>
+            </div>
+        </section>
+    </header>
+    <!-- Each of these sections contains an image, a list and a paragraph -->
     <section>
         <h1 class="abs">Back Workouts</h1>
-        <ol>
-            <div>
+        <section>
+            <ol>
                 <li class="abs"><h2>Incline Dumbbell Row</h2>
                     <img class="abs" src="images/inclinedbrow.webp" alt="A guy without a shirt on about to perform an incline dumbbell row">
-                    <p>
-                        <ol>
-                            <li>Set an adjustable bench to a 30- to 45-degree incline <br>
-                                 and lie on it chest-down.</li>
-                            <li>Grasp a dumbbell in each hand and draw your shoulder <br> 
-                                blades back and together as your row the weights to your sides.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Set an adjustable bench to a 30- to 45-degree incline <br>
+                                and lie on it chest-down.</li>
+                        <li class="pbl">Grasp a dumbbell in each hand and draw your shoulder <br> 
+                            blades back and together as your row the weights to your sides.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Back Extension</h2>
                     <img class="abs" src="images/rowing-back-extension.webp" alt="A guy without a shirt on about to perform a back extension">
-                    <p>
-                        <ol>
-                            <li>Lock your legs into a back extension bench and allow your torso <br>
-                                 to bend forward so that your hips are bent almost 90 degrees.</li>
-                            <li>Extend your hips so that your body forms a straight line.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Lock your legs into a back extension bench and allow your torso <br>
+                                to bend forward so that your hips are bent almost 90 degrees.</li>
+                        <li class="pbl">Extend your hips so that your body forms a straight line.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Seated Cable Row</h2>
                     <img class="abs" src="images/rowing-seated-cable-row.webp" alt="A guy without a shirt on about to perform a seated cable row">
-                    <p>
-                        <ol>
-                            <li>Attach a straight or lat-pulldown bar to the pulley of a seated <br>
-                                row station.</li>
-                            <li>Sit on the bench (or floor) with your feet against the foot plate <br>
-                                 and knees slightly bent.</li>
-                            <li>Keeping your lower back flat, bend forward at the hips to grasp <br>
-                                 the bar and row it to your sternum, squeezing your shoulder blades <br>
-                                  together in the end position.</li>
-                            <li>Extend your arms and feel the stretch in your back before beginning <br>
-                                the next rep.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Attach a straight or lat-pulldown bar to the pulley of a seated <br>
+                            row station.</li>
+                        <li class="pbl">Sit on the bench (or floor) with your feet against the foot plate <br>
+                                and knees slightly bent.</li>
+                        <li class="pbl">Keeping your lower back flat, bend forward at the hips to grasp <br>
+                                the bar and row it to your sternum, squeezing your shoulder blades <br>
+                                together in the end position.</li>
+                        <li class="pbl">Extend your arms and feel the stretch in your back before beginning <br>
+                            the next rep.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Bentover Reverse Flye</h2>
                     <img class="abs" src="images/bentover-reverse-flye.webp" alt="A guy without a shirt on about to perform a bent over reverse flye">
-                    <p>
-                        <ol>
-                            <li>Set up as you did for the neutral grip row, but with lighter dumbbells.</li>
-                            <li>Set a timer for three minutes.</li>
-                            <li>Raise your arms out to your sides 90 degrees, squeezing your shoulder blades <br>
-                                together at the top for a second.</li>
-                            <li>Complete your set and then rest until the end of three minutes, when your timer <br> goes off.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Set up as you did for the neutral grip row, but with lighter dumbbells.</li>
+                        <li class="pbl">Set a timer for three minutes.</li>
+                        <li class="pbl">Raise your arms out to your sides 90 degrees, squeezing your shoulder blades <br>
+                            together at the top for a second.</li>
+                        <li class="pbl">Complete your set and then rest until the end of three minutes, when your timer <br> goes off.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Yates Row</h2>
                     <img class="abs" src="images/yates-row.webp" alt="A guy without a shirt on about to perform a yates row">
-                    <p>
-                        <ol>
-                            <li>Hold the bar with an underhand grip at shoulder-width.</li>
-                            <li>Keeping your lower back in its natural arch, bend your hips back and lower your <br>
-                                torso to about 60 degrees.</li>
-                            <li>Row the weight to your belly button using a slight cheat (use momentum to begin each rep), <br>
-                                 but don't let your lower back round.</li>
-                            <li>If you have wrist straps, you may use them to help your grip.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Hold the bar with an underhand grip at shoulder-width.</li>
+                        <li class="pbl">Keeping your lower back in its natural arch, bend your hips back and lower your <br>
+                            torso to about 60 degrees.</li>
+                        <li class="pbl">Row the weight to your belly button using a slight cheat (use momentum to begin each rep), <br>
+                                but don't let your lower back round.</li>
+                        <li class="pbl">If you have wrist straps, you may use them to help your grip.</li>
+                    </ol>
                 </li>
-            </div>
-        </ol>
+            </ol>
+        </section>
     </section>
     <footer>
         <p>&copy; Shehu Muhammad</p>

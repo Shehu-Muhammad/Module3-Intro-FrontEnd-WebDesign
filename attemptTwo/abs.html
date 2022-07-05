@@ -10,163 +10,171 @@
 </head>
 <body>
     <h2 hidden>Gym Website Abs Workouts</h2>
-    <nav>
-        <h2 hidden>Navigation Section</h2>
-        <ul>
-            <li class="navLinks">
-                <a href="index.html"><Strong>Brand</Strong></a>
-            </li>
-            <li class="navLinks">
-                <a href="about.html">About</a>
-            </li>
-            <div class="dropdown">
-                <li class="navLinks active">
-                    <a href="workouts.html">Workouts</a>
-                    <div class="dropdown-content">
-                        <a class="pressed" href="abs.html">Abs</a>
-                        <a href="arms.html">Arms</a>
-                        <a href="legs.html">Legs</a>
-                        <a href="back.html">Back</a>
-                        <a href="shoulders.html">Shoulders</a>
-                        <a href="chest.html">Chest</a>
-                        <a href="fullbody.html">Full Body</a>
-                    </div>
+    <header>
+        <nav>
+            <h2 hidden>Navigation Section</h2>
+            <!-- This controls the navigation links -->
+            <ul>
+                <li class="navLinks">
+                    <a href="index.html"><Strong>Brand</Strong></a>
                 </li>
+                <li class="navLinks">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+            <!-- These links will show if you hover over the workouts link -->
+            <div class="dropdown">
+                <ul>
+                    <li class="navLinks active">
+                        <a href="workouts.html">Workouts</a>
+                        <p class="dropdown-content">
+                            <a class="pressed" href="abs.html">Abs</a>
+                            <a href="arms.html">Arms</a>
+                            <a href="legs.html">Legs</a>
+                            <a href="back.html">Back</a>
+                            <a href="shoulders.html">Shoulders</a>
+                            <a href="chest.html">Chest</a>
+                            <a href="fullbody.html">Full Body</a>
+                        </p>
+                    </li>
+                </ul>
             </div>
-            <li class="navLinks">
-                <a href="store.html">Store</a>
-            </li>
-            <li class="navLinks">
-                <a href="reviews.html">Reviews</a>
-            </li>
-            <li class="navLinks signup">
-                <a href="signup.html">Sign Up</a>
-            </li>
-            <li class="navLinks login">
-                <a href="login.html">Log In</a>
-            </li>
-        </ul>
-    </nav>
-    <section id="workoutLinks">
-        <h2 hidden>Workouts Links</h2>
-        <div class="grid-container">
-            <a href="abs.html"> 
-                <div class="grid-item pressed">
-                    Abs
-                </div>
-            </a>
-            <a href="arms.html">
-                <div class="grid-item">
-                    Arms
-                </div>
-            </a>
-            <a href="legs.html">
-                <div class="grid-item">
-                    Legs
-                </div>
-            </a>
-            <a href="back.html">
-                <div class="grid-item">
-                    Back
-                </div>
-            </a>
-            <a href="shoulders.html">
-                <div class="grid-item">
-                    Shoulders
-                </div>
-            </a>
-            <a href="chest.html">
-                <div class="grid-item">
-                    Chest
-                </div>
-            </a>
-            <a href="fullbody.html">
-                <div class="grid-item currentPage">
-                    Full Body
-                </div>
-            </a>
-            <a href="workouts.html">
-                <div class="grid-item">
-                    Workouts
-                </div>
-            </a>
-        </div>
-    </section>
+            <ul>
+                <li class="navLinks">
+                    <a href="store.html">Store</a>
+                </li>
+                <li class="navLinks">
+                    <a href="reviews.html">Reviews</a>
+                </li>
+                <li class="navLinks signup">
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li class="navLinks login">
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- This controls the links on the right side of the page -->
+        <section id="workoutLinks">
+            <h2 hidden>Workouts Links</h2>
+            <div class="grid-container">
+                <a href="abs.html"> 
+                    <div class="grid-item pressed">
+                        Abs
+                    </div>
+                </a>
+                <a href="arms.html">
+                    <div class="grid-item">
+                        Arms
+                    </div>
+                </a>
+                <a href="legs.html">
+                    <div class="grid-item">
+                        Legs
+                    </div>
+                </a>
+                <a href="back.html">
+                    <div class="grid-item">
+                        Back
+                    </div>
+                </a>
+                <a href="shoulders.html">
+                    <div class="grid-item">
+                        Shoulders
+                    </div>
+                </a>
+                <a href="chest.html">
+                    <div class="grid-item">
+                        Chest
+                    </div>
+                </a>
+                <a href="fullbody.html">
+                    <div class="grid-item currentPage">
+                        Full Body
+                    </div>
+                </a>
+                <a href="workouts.html">
+                    <div class="grid-item">
+                        Workouts
+                    </div>
+                </a>
+            </div>
+        </section>
+    </header>
+    <!-- Each of these sections contains an image, a list and a paragraph -->
     <section>
         <h1 class="abs">Ab Workouts</h1>
-        <ol>
-            <div>
-                <li class="abs"><h2>Ab Wheel Rollout</h2>
+        <section>
+            <ol>
+                <li class="abs"><h2 class="abs">Ab Wheel Rollout</h2>
                     <img class="abs" src="images/AbRollout.webp" alt="A guy without a shirt on about to perform an ab rollout">
-                    <p>
-                        <ol>
-                            <li>Kneel on the floor and hold an ab wheel beneath your shoulders.</li>
-                            <li>Brace your abs and roll the wheel forward until you feel you're <br> 
-                                about to lose tension in your core and your hips might sag.</li>
-                            <li>Roll yourself back to start.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Kneel on the floor and hold an ab wheel beneath your shoulders.</li>
+                        <li class="pbl">Brace your abs and roll the wheel forward until you feel you're <br> 
+                            about to lose tension in your core and your hips might sag.</li>
+                        <li class="pbl">Roll yourself back to start.</li>
+                    </ol>
                     <p><b>Reps: </b>Do as many reps as you can with perfect form.</p>
                     <p><b>Sets: </b>End the set when you think you might break form.</p>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Arms-High Partial Situp</h2>
                     <img class="abs" src="images/arms-high-partial-situp.webp" alt="A guy without a shirt on about to perform a partial sit up">
-                    <p>
-                        <ol>
-                            <li>Lie on your back, knees bent at 90 degrees, and raise your arms straight <br> 
-                                overhead, keeping them pointing up throughout the exercise.</li>
-                            <li>Sit up halfway, then steadily return to the floor. That's one rep.</li>
-                        </ol>
-                    </p>
-                    <p><b>Reps: </b>12-15</p>
-                    <p><b>Sets: </b>3</p>
-                    <p><b>Rest: 2-3 minutes between sets</b></p>
+                    <ol class="ml">
+                        <li class="pbl">Lie on your back, knees bent at 90 degrees, and raise your arms straight <br> 
+                            overhead, keeping them pointing up throughout the exercise.</li>
+                        <li class="pbl"> Sit up halfway, then steadily return to the floor. That's one rep.</li>
+                    </ol>
+                    <p class="pbp"><b>Reps: </b>12-15</p>
+                    <p class="pbp"><b>Sets: </b>3</p>
+                    <p class="pbp"><b>Rest: 2-3 minutes between sets</b></p>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Flutter Kicks</h2>
                     <img class="abs" src="images/flutter-kick.webp" alt="A guy without a shirt on about to perform a flutter kick">
-                    <p>
-                        <ol>
-                            <li>Lie on your back with legs straight and arms extend out at your sides.</li>
-                            <li>Lift your heels about 6 inches off the floor and rapidly kick your feet up <br> 
-                                and down in a quick, scissor-like motion.</li>
-                        </ol>
-                    </p>
-                    <p><b>Reps: </b>12-15</p>
-                    <p><b>Sets: </b>3</p>
-                    <p><b>Rest: 1 minute between sets</b></p>
+                    <ol class="ml"> 
+                        <li class="pbl">Lie on your back with legs straight and arms extend out at your sides.</li>
+                        <li class="pbl">Lift your heels about 6 inches off the floor and rapidly kick your feet up <br> 
+                            and down in a quick, scissor-like motion.</li>
+                    </ol>
+                    <p class="pbp"><b>Reps: </b>12-15</p>
+                    <p class="pbp"><b>Sets: </b>3</p>
+                    <p class="pbp"><b>Rest: 1 minute between sets</b></p>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Leg Raise</h2>
                     <img class="abs" src="images/legraise.webp" alt="A guy without a shirt on about to perform a leg raise">
-                    <p>
-                        <ol>
-                            <li>Lie on the floor and hold onto a bench or the legs of a heavy chair for support.</li>
-                            <li>keep your legs straight and raise them up until they're vertical.</li>
-                            <li>Lower back down, but stop just short of the floor to keep tension on your abs <br> 
-                                before the next rep.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Lie on the floor and hold onto a bench or the legs of a heavy chair for support.</li>
+                        <li class="pbl">keep your legs straight and raise them up until they're vertical.</li>
+                        <li class="pbl">Lower back down, but stop just short of the floor to keep tension on your abs <br> 
+                            before the next rep.</li>
+                    </ol>
                 </li>
-            </div>
-            <div>
+            </ol>
+        </section>
+        <section>
+            <ol>
                 <li class="abs"><h2>Medicine Ball Russian Twist</h2>
                     <img class="abs" src="images/russiantwist.webp" alt="A guy without a shirt on about to perform a russian twist">
-                    <p>
-                        <ol>
-                            <li>Sit on the floor in the top position of a situp and holding a medicine ball with both <br> 
-                                hands, extend your arms in front of you.</li>
-                            <li>Explosively twist your body to one side and then twist back.</li>
-                            <li>Alternate sides.</li>
-                        </ol>
-                    </p>
+                    <ol class="ml">
+                        <li class="pbl">Sit on the floor in the top position of a situp and holding a medicine ball with both <br> 
+                            hands, extend your arms in front of you.</li>
+                        <li class="pbl">Explosively twist your body to one side and then twist back.</li>
+                        <li class="pbl">Alternate sides.</li>
+                    </ol>
                 </li>
-            </div>
-        </ol>
+            </ol>
+        </section>
     </section>
     <footer>
         <p>&copy; Shehu Muhammad</p>

@@ -9,52 +9,64 @@
 </head>
 <body>
     <h2 hidden>Gym Website About Info</h2>
-    <nav>
-        <h2 hidden>Navigation Section</h2>
-        <ul>
-            <li class="navLinks">
-                <a href="index.html"><Strong>Brand</Strong></a>
-            </li>
-            <li class="navLinks active">
-                <a href="about.html">About</a>
-            </li>
-            <div class="dropdown">
+    <header>
+        <nav>
+            <h2 hidden>Navigation Section</h2>
+            <!-- This controls the navigation links -->
+            <ul>
                 <li class="navLinks">
-                    <a href="workouts.html">Workouts</a>
-                    <div class="dropdown-content">
-                        <a href="abs.html">Abs</a>
-                        <a href="arms.html">Arms</a>
-                        <a href="legs.html">Legs</a>
-                        <a href="back.html">Back</a>
-                        <a href="shoulders.html">Shoulders</a>
-                        <a href="chest.html">Chest</a>
-                        <a href="fullbody.html">Full Body</a>
-                    </div>
+                    <a href="index.html"><Strong>Brand</Strong></a>
                 </li>
+                <li class="navLinks active">
+                    <a href="about.html">About</a>
+                </li>
+                <!-- These links will show if you hover over the workouts link -->
+                <div class="dropdown">
+                    <li class="navLinks">
+                        <a href="workouts.html">Workouts</a>
+                        <div class="dropdown-content">
+                            <a href="abs.html">Abs</a>
+                            <a href="arms.html">Arms</a>
+                            <a href="legs.html">Legs</a>
+                            <a href="back.html">Back</a>
+                            <a href="shoulders.html">Shoulders</a>
+                            <a href="chest.html">Chest</a>
+                            <a href="fullbody.html">Full Body</a>
+                        </div>
+                    </li>
+                </div>
+                <li class="navLinks">
+                    <a href="store.html">Store</a>
+                </li>
+                <li class="navLinks">
+                    <a href="reviews.html">Reviews</a>
+                </li>
+                <li class="navLinks signup">
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li class="navLinks login">
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Each of these sections contains an image and a paragraph -->
+        <section class="aboutBackground">
+            <h1 class="aboutUs">About Us</h1>
+            <div>
+                <!-- This image is floated to the left -->
+                <img class="aboutImages floatImageLeft" src="images/chuttersnap-B0dx5ptuf50-unsplash.jpg" alt="Treadmills in front of a glass window">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta leo eu sem venenatis eleifend. Duis bibendum, velit in dignissim sodales, felis tortor malesuada quam, at mattis lectus neque sed neque. Morbi eget ornare enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed varius libero in libero hendrerit rutrum. Vivamus neque quam, ullamcorper non ultricies at, dignissim eget ante. Donec felis erat, bibendum volutpat rutrum sed, lobortis at nibh. Mauris non sapien leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae elit lacinia, porttitor mauris eu, aliquet nunc. Sed at dolor metus. Sed aliquam vulputate enim, sit amet eleifend enim imperdiet eget.</p>
             </div>
-            <li class="navLinks">
-                <a href="store.html">Store</a>
-            </li>
-            <li class="navLinks">
-                <a href="reviews.html">Reviews</a>
-            </li>
-            <li class="navLinks signup">
-                <a href="signup.html">Sign Up</a>
-            </li>
-            <li class="navLinks login">
-                <a href="login.html">Log In</a>
-            </li>
-        </ul>
-    </nav>
-    <section class="aboutBackground">
-        <h1 class="aboutUs">About Us</h1>
-        <div>
-            <img class="aboutImages floatImageLeft" src="images/chuttersnap-B0dx5ptuf50-unsplash.jpg" alt="Treadmills in front of a glass window">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta leo eu sem venenatis eleifend. Duis bibendum, velit in dignissim sodales, felis tortor malesuada quam, at mattis lectus neque sed neque. Morbi eget ornare enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed varius libero in libero hendrerit rutrum. Vivamus neque quam, ullamcorper non ultricies at, dignissim eget ante. Donec felis erat, bibendum volutpat rutrum sed, lobortis at nibh. Mauris non sapien leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae elit lacinia, porttitor mauris eu, aliquet nunc. Sed at dolor metus. Sed aliquam vulputate enim, sit amet eleifend enim imperdiet eget.</p>
-            <img class="aboutImages floatImageRight" src="images/chuttersnap-B0dx5ptuf50-unsplash.jpg" alt="Treadmills in front of a glass window">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta leo eu sem venenatis eleifend. Duis bibendum, velit in dignissim sodales, felis tortor malesuada quam, at mattis lectus neque sed neque. Morbi eget ornare enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed varius libero in libero hendrerit rutrum. Vivamus neque quam, ullamcorper non ultricies at, dignissim eget ante. Donec felis erat, bibendum volutpat rutrum sed, lobortis at nibh. Mauris non sapien leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae elit lacinia, porttitor mauris eu, aliquet nunc. Sed at dolor metus. Sed aliquam vulputate enim, sit amet eleifend enim imperdiet eget.</p>
-        </div>
-    </section>
+        </section>
+        <section class="aboutBackground">
+            <h2 hidden>More About Us</h2>
+            <div>
+                <!-- This image is floated to the right -->
+                <img class="aboutImages floatImageRight" src="images/chuttersnap-B0dx5ptuf50-unsplash.jpg" alt="Treadmills in front of a glass window">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta leo eu sem venenatis eleifend. Duis bibendum, velit in dignissim sodales, felis tortor malesuada quam, at mattis lectus neque sed neque. Morbi eget ornare enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed varius libero in libero hendrerit rutrum. Vivamus neque quam, ullamcorper non ultricies at, dignissim eget ante. Donec felis erat, bibendum volutpat rutrum sed, lobortis at nibh. Mauris non sapien leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae elit lacinia, porttitor mauris eu, aliquet nunc. Sed at dolor metus. Sed aliquam vulputate enim, sit amet eleifend enim imperdiet eget.</p>
+            </div>
+        </section>
+    </header>
     <footer>
         <p>&copy; Shehu Muhammad</p>
     </footer>
