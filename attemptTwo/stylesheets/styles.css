@@ -7,7 +7,6 @@ nav {
     position: fixed;
     top: 0;
     background-color: black;
-    /* padding: 2em; */
     padding-left: 30px;
     width: 100%;
 }
@@ -61,7 +60,6 @@ img.landing {
 }
 
 footer {
-    /* position: fixed; */
     background-color: white;
     width: 100%;
     text-align: center;
@@ -136,12 +134,6 @@ h1#reviews {
     background-color: #3E885B;
 }
 
-div#stars{
-    /* background-image: url("../images/goldstars.webp"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 div.customer > img {
     width: 80px;
     float: left;
@@ -172,72 +164,62 @@ div.customer > img {
     grid-template-columns: auto auto auto;
     background-color: green;
     padding: 10px;
-  }
-  
+}
+
 .grid-item {
     background-color: black;
     border: 10px solid green;
     padding: 30px;
     font-size: 20px;
     text-align: center;
-  }
-  
+}
 
 div.grid-item {
       padding: 30px;
       font-size: 30px;
       cursor: pointer;
-  }
+}
 
 div.grid-item:hover {
       background-color: khaki;
-  }
-  
+}
+
 div.grid-item.pressed, div.dropdown-content > a.pressed {
     background-color: red;
     cursor: not-allowed;
-  }
-  
-  #workoutLinks {
+}
+
+#workoutLinks {
     float: right;
     margin-right: 160px;
     clear: both;
     margin-top: 100px;
-  }
-  
-  img.abs {
+}
+
+img.abs {
     /* float: left; */
     width: 300px;
     border: 5px groove khaki;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  
-  li.abs {
+}
+
+li.abs {
     margin-left: 50px;
-    /* float:right; */
     margin-top: 30px;
     font-size: 30px;
     list-style-type: none;
-  }
-  
-  /* ol > div > li > ol {
-    padding: 0px 0px 10px 20px;
-    margin-left: 10px;
-  }
-  
-  ol > div > li > ol > li {
-    padding-bottom: 20px;
-  }
-  
-  ol > div > li > p {
-    padding-bottom: 10px;
-  } */
+}
+
+img.ohpg {
+    width: 294px;
+}  
 
 .ml {
     padding: 0px 0px 10px 20px;
     margin-left: 10px;
 }
+
 .pbp {
    padding-bottom: 10px; 
 }
@@ -245,14 +227,12 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
 .pbl {
     padding-bottom: 20px;
 }
-  
-  
- h1.abs {
+
+h1.abs {
     text-align: center;
     font-size: 64px;
     margin-top: 100px;
- } 
-  
+}
 
 #footer {
     position: absolute;
@@ -262,19 +242,17 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
 .dropdown {
     float: left;
     overflow: hidden;
-  }
-  
+}
+
 .dropdown .dropbtn {
     font-size: 1.5em;  
     border: none;
     outline: none;
     color: khaki;
-    /* padding: 14px 16px; */
     background-color: inherit;
     font-family: inherit;
-    /* margin: 0; */
-  }
-  
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -284,7 +262,7 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     z-index: 1;
     top: 69px;
     border: 1px solid khaki;
-  }
+}
   
 .dropdown-content a {
     float: none;
@@ -295,15 +273,15 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     display: block;
     text-align: center;
     border: 1px solid khaki;
-  }
+}
   
 .dropdown-content a:hover {
     background-color: khaki;
-  }
+}
   
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
   
 h1.index {
     background-color: black;
