@@ -205,8 +205,6 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
 }
 
 img.abs {
-    /* float: left; */
-    width: 300px;
     border: 5px groove khaki;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -218,10 +216,6 @@ li.abs {
     font-size: 30px;
     list-style-type: none;
 }
-
-img.ohpg {
-    width: 294px;
-}  
 
 .ml {
     padding: 0px 0px 10px 20px;
