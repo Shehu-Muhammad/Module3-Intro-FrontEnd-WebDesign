@@ -204,6 +204,23 @@ div.grid-item.pressed, div.dropdown-content > a.pressed {
     margin-top: 100px;
 }
 
+a.iLinkTop, a.iLinkBottom {
+    float: right;
+    font-size: 30px;
+    color: green;
+    background-color: khaki;
+    border: 3px solid green;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+a.iLinkTop {
+    position: relative;
+    bottom: 200px;
+    right: 335px;
+}
+
 img.abs {
     border: 5px groove khaki;
     margin-top: 10px;
