@@ -72,6 +72,14 @@ footer > p {
     background: black;
 }
 
+footer.store {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+}
+
 h1.aboutUs {
     text-align: center;
     font-size: 64px;
