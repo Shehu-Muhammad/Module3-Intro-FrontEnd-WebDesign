@@ -156,16 +156,26 @@ div.customer > img {
     box-shadow: 5px 5px green;
 }
 
-/* #delay {
+.delay {
     font-size: 14px;
     transition-property: font-size;
     transition-duration: 1s;
     transition-delay: 0.5s;
-  }
+}
   
-  #delay:hover {
-    font-size: 72px;
-  } */
+.delay:hover {
+    font-size: 32px;
+}
+
+.grow {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.grow:hover {
+    width: 130px;
+}
   
 .grid-container {
     display: inline-flexbox;
